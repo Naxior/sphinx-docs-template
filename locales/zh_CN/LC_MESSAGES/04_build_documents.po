@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Naxior
+# This file is distributed under the same license as the Sphinx
+# Documentation Template package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx Documentation Template latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-27 18:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/04_build_documents.rst:2
+msgid "Build documents"
+msgstr ""
+
+#: ../../source/04_build_documents.rst:4
+msgid "**No version and no multi-language documentation build method**"
+msgstr ""
+
+#: ../../source/04_build_documents.rst:6
+msgid ""
+"When you need to quickly build a document just to check the content "
+"style, run ``make html`` in the current directory. This command is a "
+"simplified version of:"
+msgstr ""
+
+#: ../../source/04_build_documents.rst:12
+msgid ""
+"After executing the command, the static document will be generated in the"
+" ``build/html`` directory."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:14
+msgid ""
+"You can browse the document by opening ``build/html/index.html`` in your "
+"web browser."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:16
+msgid "**Multi-version and multi-language documentation build method**"
+msgstr ""
+
+#: ../../source/04_build_documents.rst:18
+msgid ""
+"If you need to build a multi-version and multi-language document with "
+"content changes, **you need to commit the document locally** and **re-tag"
+" it as test**."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:27
+msgid "After that, you can use the following command:"
+msgstr ""
+
+#: ../../source/04_build_documents.rst:35
+msgid ""
+"After executing the command, the document will be generated in the "
+"``build/html/en`` and ``build/html/zh`` directory."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:37
+msgid ""
+"You need to know the document version build rule before building the "
+"document."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:39
+msgid ""
+"According to the configuration in ``source/conf.py``, match all the tags "
+"in the current repository and build the multi-version document."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:41
+msgid ""
+"The version matching rule is based on the ``smv_tag_whitelist`` "
+"configuration in ``conf.py``, such as "
+"``^\\d+\\.\\d+\\.\\d+$|^latest$|^test$``, which matches the version "
+"number in the format of ``1.0.0``, ``latest``, and ``test``."
+msgstr ""
+
+#: ../../source/04_build_documents.rst:43
+msgid ""
+"You can view the Chinese version of the documentation by opening "
+"``build/html/zh/index.html`` in your browser, and the English version by "
+"opening ``build/html/en/index.html``"
+msgstr ""
+

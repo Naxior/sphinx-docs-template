@@ -1,0 +1,9 @@
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.default-inline-image {
+    max-height: 24px;
+}
